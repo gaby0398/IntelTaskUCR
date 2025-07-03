@@ -1,0 +1,186 @@
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\appsettings.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.staticwebassets.endpoints.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.exe
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.deps.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.runtimeconfig.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.pdb
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Domain.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Domain.pdb
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.pdb
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.csproj.AssemblyReference.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.AssemblyInfoInputs.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.AssemblyInfo.cs
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.csproj.CoreCompileInputs.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\scopedcss\bundle\IntelTaskUCR.API.styles.css
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets\msbuild.IntelTaskUCR.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets\msbuild.IntelTaskUCR.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets\msbuild.build.IntelTaskUCR.API.props
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.IntelTaskUCR.API.props
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.IntelTaskUCR.API.props
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTas.37E8527B.Up2Date
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\refint\IntelTaskUCR.API.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.pdb
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.genruntimeconfig.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\ref\IntelTaskUCR.API.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\appsettings.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.staticwebassets.endpoints.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.exe
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.deps.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.runtimeconfig.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.API.pdb
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Domain.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Domain.pdb
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.pdb
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.csproj.AssemblyReference.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.AssemblyInfoInputs.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.AssemblyInfo.cs
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.csproj.CoreCompileInputs.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\scopedcss\bundle\IntelTaskUCR.API.styles.css
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTas.37E8527B.Up2Date
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\refint\IntelTaskUCR.API.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.pdb
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\IntelTaskUCR.API.genruntimeconfig.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\obj\Debug\net8.0\ref\IntelTaskUCR.API.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCR.API\bin\Debug\net8.0\DinkToPdf.dll

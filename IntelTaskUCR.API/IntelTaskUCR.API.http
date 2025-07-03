@@ -1,0 +1,6 @@
+@IntelTaskUCR.API_HostAddress = http://localhost:5255
+
+GET {{IntelTaskUCR.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

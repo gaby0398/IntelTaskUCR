@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "yXJDWCiNKChjQbKNEDoKgjUmcYqkT6N91ZpCpuS/VuM=",
+  "Source": "IntelTaskUCR.API",
+  "BasePath": "_content/IntelTaskUCR.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
