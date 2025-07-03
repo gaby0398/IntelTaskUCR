@@ -1,7 +1,6 @@
 ﻿using IntelTaskUCR.Domain.Entities;
 using IntelTaskUCR.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace IntelTaskUCR.API.Controllers
 {
@@ -16,6 +15,7 @@ namespace IntelTaskUCR.API.Controllers
             _repository = repository;
         }
 
+        // GET: api/Permiso
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -23,31 +23,30 @@ namespace IntelTaskUCR.API.Controllers
             return Ok(permisos);
         }
 
+        // GET: api/Permiso/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
+        public async Task<ActionResult<EPermiso>> GetById(int id)
         {
             var permiso = await _repository.GetByIdAsync(id);
-            return permiso != null ? Ok(permiso) : NotFound();
+            if (permiso == null)
+                return NotFound();
+
+            return Ok(permiso);
         }
 
+        // POST: api/Permiso
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] EPermiso permiso)
         {
-            // Obtener el último ID actual
             var permisos = await _repository.GetAllAsync();
             var ultimoId = permisos.Any() ? permisos.Max(p => p.CN_Id_permiso) : 0;
-
-            // Asignar el nuevo ID sumando uno
             permiso.CN_Id_permiso = ultimoId + 1;
 
-
-            // Guardar el permiso
             await _repository.AddAsync(permiso);
-
-            return CreatedAtAction(nameof(Get), new { id = permiso.CN_Id_permiso }, permiso);
+            return CreatedAtAction(nameof(GetById), new { id = permiso.CN_Id_permiso }, permiso);
         }
 
-
+        // PUT: api/Permiso/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] EPermiso permiso)
         {
@@ -58,6 +57,7 @@ namespace IntelTaskUCR.API.Controllers
             return NoContent();
         }
 
+        // DELETE: api/Permiso/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
@@ -65,17 +65,15 @@ namespace IntelTaskUCR.API.Controllers
             return NoContent();
         }
 
+        // GET: api/Permiso/registrados
         [HttpGet("registrados")]
         public async Task<IActionResult> GetPermisosRegistrados()
         {
             try
             {
                 var permisosRegistrados = await _repository.GetPermisosPorEstadoRegistradoAsync();
-
                 if (permisosRegistrados == null || !permisosRegistrados.Any())
-                {
                     return NotFound("No hay permisos en estado Registrado.");
-                }
 
                 return Ok(permisosRegistrados);
             }
@@ -85,26 +83,33 @@ namespace IntelTaskUCR.API.Controllers
             }
         }
 
+        // GET: api/Permiso/registrados/cantidad
         [HttpGet("registrados/cantidad")]
         public async Task<IActionResult> GetCantidadPermisosRegistrados()
         {
             try
             {
-                // Llamamos al repositorio para obtener la cantidad de permisos en estado "Registrado"
-                var cantidadPermisosRegistrados = await _repository.GetCantidadPermisosPorEstadoRegistradoAsync();
-
-                // Devolvemos la cantidad en un formato adecuado
-                return Ok(new { cantidad = cantidadPermisosRegistrados });
+                var cantidad = await _repository.GetCantidadPermisosPorEstadoRegistradoAsync();
+                return Ok(new { cantidad });
             }
             catch (Exception ex)
             {
-                // Manejo de errores en caso de excepciones
                 return StatusCode(500, $"Error al obtener la cantidad de permisos: {ex.Message}");
             }
         }
 
+        // PATCH: api/Permiso/{id}/estado
+        [HttpPatch("{id}/estado")]
+        public async Task<IActionResult> CambiarEstado(int id, [FromBody] byte nuevoEstado)
+        {
+            var permiso = await _repository.GetByIdAsync(id);
+            if (permiso == null)
+                return NotFound();
 
+            permiso.CN_Id_estado = nuevoEstado;
+            await _repository.UpdateAsync(permiso);
 
-
+            return Ok(new { mensaje = "Estado actualizado correctamente." });
+        }
     }
 }
