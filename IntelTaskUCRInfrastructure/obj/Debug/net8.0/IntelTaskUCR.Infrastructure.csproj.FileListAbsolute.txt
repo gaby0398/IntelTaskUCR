@@ -1,0 +1,31 @@
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.AssemblyInfo.cs
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.deps.json
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.pdb
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Domain.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Domain.pdb
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTas.1B5E46F2.Up2Date
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\refint\IntelTaskUCR.Infrastructure.dll
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.pdb
+C:\Users\cmoralesc\OneDrive - Poder Judicial CR\Escritorio\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\ref\IntelTaskUCR.Infrastructure.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\refint\IntelTaskUCR.Infrastructure.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.pdb
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.deps.json
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Infrastructure.pdb
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Domain.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\bin\Debug\net8.0\IntelTaskUCR.Domain.pdb
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.AssemblyInfo.cs
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTas.1B5E46F2.Up2Date
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\ref\IntelTaskUCR.Infrastructure.dll
+C:\Users\gabyj\Desktop\PRIMER_SEMESTRE_2025\Ingeniería de Software\IntelTaskUCR.BackEnd\IntelTaskUCRInfrastructure\obj\Debug\net8.0\IntelTaskUCR.Infrastructure.sourcelink.json
