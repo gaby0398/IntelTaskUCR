@@ -87,9 +87,9 @@ namespace IntelTaskUCR.API.Controllers
                     var notificacion = new ENotificacion
                     {
                         CN_Id_notificacion = ultimoId + 1,
-                        CN_Tipo_notificacion = 1,
+                        CN_Tipo_notificacion = 5,
                         CT_Titulo_notificacion = "Nuevo seguimiento agregado",
-                        CT_Texto_notificacion = $"📨 El usuario {correoOrigen} agregó un seguimiento a la tarea #{item.CN_Id_tarea}.",
+                        CT_Texto_notificacion = $"El usuario {correoOrigen} agregó un seguimiento a la tarea #{item.CN_Id_tarea}.",
                         CT_Correo_origen = correoOrigen,
                         CF_Fecha_notificacion = DateTime.UtcNow,
                         CF_Fecha_registro = DateTime.UtcNow,
