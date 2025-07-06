@@ -16,6 +16,7 @@ namespace IntelTaskUCR.Domain.Interfaces
 
         Task<IEnumerable<ETarea>> FiltrarTareasAsync(string? nombre, int? estado, int? prioridad, string? asignado, DateTime? fechaLimite);
 
+        Task<IEnumerable<ETarea>> GetTareasPorUsuarioAsync(int idUsuario);
 
     }
 }

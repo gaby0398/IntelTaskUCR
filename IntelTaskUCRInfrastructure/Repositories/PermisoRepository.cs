@@ -69,6 +69,15 @@ namespace IntelTaskUCR.Infrastructure.Repositories
         }
 
 
+        public async Task<IEnumerable<EPermiso>> GetPermisosPorUsuarioAsync(int idUsuario)
+        {
+            return await _context.T_Permisos
+                                 .Where(p => p.CN_Usuario_creador == idUsuario)
+                                 .Include(p => p.UsuarioCreador)
+                                 .Include(p => p.Estado)
+                                 .ToListAsync();
+        }
+
 
     }
 }

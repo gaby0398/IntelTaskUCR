@@ -1,5 +1,6 @@
 ﻿using IntelTaskUCR.Domain.Entities;
 using IntelTaskUCR.Domain.Interfaces;
+using IntelTaskUCR.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IntelTaskUCR.API.Controllers
@@ -38,13 +39,30 @@ namespace IntelTaskUCR.API.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] EPermiso permiso)
         {
-            var permisos = await _repository.GetAllAsync();
-            var ultimoId = permisos.Any() ? permisos.Max(p => p.CN_Id_permiso) : 0;
-            permiso.CN_Id_permiso = ultimoId + 1;
+            try
+            {
+                // 1. Obtener el ID del usuario autenticado
+                var idUsuario = int.Parse(User.FindFirst("IdUsuario")!.Value);
 
-            await _repository.AddAsync(permiso);
-            return CreatedAtAction(nameof(GetById), new { id = permiso.CN_Id_permiso }, permiso);
+                // 2. Asignar el ID al permiso
+                permiso.CN_Usuario_creador = idUsuario;
+
+                // 3. Generar nuevo ID de permiso
+                var permisos = await _repository.GetAllAsync();
+                var ultimoId = permisos.Any() ? permisos.Max(p => p.CN_Id_permiso) : 0;
+                permiso.CN_Id_permiso = ultimoId + 1;
+
+                // 4. Guardar permiso
+                await _repository.AddAsync(permiso);
+                return CreatedAtAction(nameof(GetById), new { id = permiso.CN_Id_permiso }, permiso);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error al crear el permiso: {ex.Message}");
+            }
         }
+
+
 
         // PUT: api/Permiso/{id}
         [HttpPut("{id}")]
@@ -111,5 +129,13 @@ namespace IntelTaskUCR.API.Controllers
 
             return Ok(new { mensaje = "Estado actualizado correctamente." });
         }
+
+        [HttpGet("usuario/{idUsuario}")]
+        public async Task<IActionResult> GetPermisosPorUsuario(int idUsuario)
+        {
+            var permisos = await _repository.GetPermisosPorUsuarioAsync(idUsuario);
+            return Ok(permisos);
+        }
+
     }
 }

@@ -13,5 +13,8 @@ namespace IntelTaskUCR.Domain.Interfaces
         Task<IEnumerable<EPermiso>> GetPermisosPorEstadoRegistradoAsync();
 
         Task<int> GetCantidadPermisosPorEstadoRegistradoAsync();
+
+        Task<IEnumerable<EPermiso>> GetPermisosPorUsuarioAsync(int idUsuario);
+
     }
 }

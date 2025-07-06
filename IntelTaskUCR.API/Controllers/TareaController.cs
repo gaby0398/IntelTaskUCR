@@ -1,5 +1,6 @@
 ﻿using IntelTaskUCR.Domain.Entities;
 using IntelTaskUCR.Domain.Interfaces;
+using IntelTaskUCR.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -34,59 +35,83 @@ namespace IntelTaskUCR.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] ETarea tarea)
+        public async Task<IActionResult> Create([FromBody] CrearTareaDto dto)
         {
-            if (string.IsNullOrWhiteSpace(tarea.CT_Titulo_tarea))
+            if (string.IsNullOrWhiteSpace(dto.CT_Titulo_tarea))
                 return BadRequest("El título de la tarea es obligatorio.");
 
-            if (string.IsNullOrWhiteSpace(tarea.CT_Descripcion_tarea))
+            if (string.IsNullOrWhiteSpace(dto.CT_Descripcion_tarea))
                 return BadRequest("La descripción de la tarea es obligatoria.");
 
-            if (tarea.CN_Id_prioridad <= 0 || tarea.CN_Id_complejidad <= 0)
+            if (dto.CN_Id_prioridad <= 0 || dto.CN_Id_complejidad <= 0)
                 return BadRequest("Prioridad y complejidad son campos obligatorios.");
 
-            if (tarea.CF_Fecha_limite <= tarea.CF_Fecha_asignacion)
+            // Validar fechas
+            if (dto.CF_Fecha_limite <= dto.CF_Fecha_asignacion)
                 return BadRequest("La fecha límite debe ser posterior a la fecha de asignación.");
 
+            // Obtener el usuario autenticado
             var userIdClaim = User.FindFirst("IdUsuario");
-            if (userIdClaim == null) return Unauthorized("No se pudo identificar al usuario.");
+            if (userIdClaim == null)
+                return Unauthorized("No se pudo identificar al usuario.");
+
             int userId = int.Parse(userIdClaim.Value);
 
-            tarea.CN_Usuario_creador = userId;
+            // Crear nueva tarea a partir del DTO
+            var nuevaTarea = new ETarea
+            {
+                CN_Tarea_origen = dto.CN_Tarea_origen,
+                CT_Titulo_tarea = dto.CT_Titulo_tarea,
+                CT_Descripcion_tarea = dto.CT_Descripcion_tarea,
+                CT_Descripcion_espera = string.IsNullOrWhiteSpace(dto.CT_Descripcion_espera) ? " " : dto.CT_Descripcion_espera,
+                CN_Id_complejidad = dto.CN_Id_complejidad,
+                CN_Id_estado = dto.CN_Id_estado ?? 1, // Si viene null, se asigna estado por defecto
+                CN_Id_prioridad = dto.CN_Id_prioridad,
+                CN_Numero_GIS = string.IsNullOrWhiteSpace(dto.CN_Numero_GIS) ? " " : dto.CN_Numero_GIS,
+                CF_Fecha_asignacion = dto.CF_Fecha_asignacion,
+                CF_Fecha_limite = dto.CF_Fecha_limite,
+                CF_Fecha_finalizacion = dto.CF_Fecha_finalizacion,
+                CN_Usuario_creador = userId,
+                CN_Usuario_asignado = dto.CN_Usuario_asignado
+            };
 
-            await _repository.AddAsync(tarea);
+            // Guardar en BD
+            await _repository.AddAsync(nuevaTarea);
 
+            // Bitácora
             await _bitacoraAccionRepository.AddAsync(new EBitacoraAccion
             {
                 CN_Id_usuario = userId,
-                CN_Id_accion = 1, // Crear
-                CN_Id_pantalla = 2, // Tareas
-                CN_Id_tipo_documento = 1, // Tipo documento: Tarea
+                CN_Id_accion = 1,
+                CN_Id_pantalla = 2,
+                CN_Id_tipo_documento = 1,
                 CF_Fecha_hora_registro = DateTime.Now,
-                CT_informacion_importante = $"Se creó la tarea '{tarea.CT_Titulo_tarea}'."
+                CT_informacion_importante = $"Se creó la tarea '{dto.CT_Titulo_tarea}'."
             });
 
-            return CreatedAtAction(nameof(Get), new { id = tarea.CN_Id_tarea }, tarea);
+            return CreatedAtAction(nameof(Get), new { id = nuevaTarea.CN_Id_tarea }, nuevaTarea);
         }
 
+
+
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] ETarea tarea)
+        public async Task<IActionResult> Update(int id, [FromBody] CrearTareaDto dto)
         {
             try
             {
-                if (id != tarea.CN_Id_tarea)
+                if (id != dto.CN_Id_tarea)
                     return BadRequest("El ID no coincide con la tarea.");
 
-                if (string.IsNullOrWhiteSpace(tarea.CT_Titulo_tarea))
+                if (string.IsNullOrWhiteSpace(dto.CT_Titulo_tarea))
                     return BadRequest("El título de la tarea es obligatorio.");
 
-                if (string.IsNullOrWhiteSpace(tarea.CT_Descripcion_tarea))
+                if (string.IsNullOrWhiteSpace(dto.CT_Descripcion_tarea))
                     return BadRequest("La descripción de la tarea es obligatoria.");
 
-                if (tarea.CN_Id_prioridad <= 0 || tarea.CN_Id_estado <= 0 || tarea.CN_Id_complejidad <= 0)
+                if (dto.CN_Id_prioridad <= 0 || dto.CN_Id_estado <= 0 || dto.CN_Id_complejidad <= 0)
                     return BadRequest("Prioridad, estado y complejidad son campos obligatorios.");
 
-                if (tarea.CF_Fecha_limite <= tarea.CF_Fecha_asignacion)
+                if (dto.CF_Fecha_limite <= dto.CF_Fecha_asignacion)
                     return BadRequest("La fecha límite debe ser posterior a la fecha de asignación.");
 
                 var userIdClaim = User.FindFirst("IdUsuario");
@@ -102,7 +127,7 @@ namespace IntelTaskUCR.API.Controllers
                 if (tareaOriginal.CN_Usuario_creador != userId && tareaOriginal.CN_Usuario_asignado != userId)
                     return Forbid("Solo el creador o el asignado pueden modificar esta tarea.");
 
-                await _repository.UpdateAsync(tarea);
+                await _repository.UpdateAsync(tareaOriginal);
 
                 await _bitacoraAccionRepository.AddAsync(new EBitacoraAccion
                 {
@@ -111,7 +136,7 @@ namespace IntelTaskUCR.API.Controllers
                     CN_Id_pantalla = 2,
                     CN_Id_tipo_documento = 1,
                     CF_Fecha_hora_registro = DateTime.Now,
-                    CT_informacion_importante = $"Se actualizó la tarea con ID {tarea.CN_Id_tarea}."
+                    CT_informacion_importante = $"Se actualizó la tarea con ID {dto.CN_Id_tarea}."
                 });
 
                 return NoContent();
@@ -183,15 +208,23 @@ namespace IntelTaskUCR.API.Controllers
 
         [HttpGet("FiltrarTareas")]
         public async Task<IActionResult> FiltrarTareas(
-    [FromQuery] string? nombre,
-    [FromQuery] int? estado,
-    [FromQuery] int? prioridad,
-    [FromQuery] string? asignado,
-    [FromQuery] DateTime? fechaLimite)
+        [FromQuery] string? nombre,
+        [FromQuery] int? estado,
+        [FromQuery] int? prioridad,
+        [FromQuery] string? asignado,
+        [FromQuery] DateTime? fechaLimite)
         {
             var tareas = await _repository.FiltrarTareasAsync(nombre, estado, prioridad, asignado, fechaLimite);
             return Ok(tareas);
         }
+
+        [HttpGet("usuario/{idUsuario}")]
+        public async Task<IActionResult> GetTareasPorUsuario(int idUsuario)
+        {
+            var tareas = await _repository.GetTareasPorUsuarioAsync(idUsuario);
+            return Ok(tareas);
+        }
+
 
     }
 }

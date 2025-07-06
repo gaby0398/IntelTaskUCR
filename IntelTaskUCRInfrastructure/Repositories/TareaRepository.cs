@@ -111,21 +111,62 @@ namespace IntelTaskUCR.Infrastructure.Repositories
 
         public async Task UpdateAsync(ETarea tarea)
         {
-            // 1. Buscar la tarea existente en el contexto
+            // 1. Buscar la tarea existente
             var existente = await _context.T_Tareas.FirstOrDefaultAsync(t => t.CN_Id_tarea == tarea.CN_Id_tarea);
             if (existente == null)
                 throw new Exception("Tarea no encontrada.");
 
-            // 2. Validar permisos: solo el creador o el asignado puede modificar
-            if (existente.CN_Usuario_creador != tarea.CN_Usuario_creador && existente.CN_Usuario_asignado != tarea.CN_Usuario_creador)
+            // 2. Validar que quien modifica sea el creador o el asignado
+            if (existente.CN_Usuario_creador != tarea.CN_Usuario_creador &&
+                existente.CN_Usuario_asignado != tarea.CN_Usuario_creador)
                 throw new UnauthorizedAccessException("Solo el creador o el usuario asignado puede modificar esta tarea.");
 
-            // 3. Actualizar propiedades necesarias (exceptuando campos protegidos si fuera el caso)
-            _context.Entry(existente).CurrentValues.SetValues(tarea);
+            // 3. Detectar cambio de estado
+            bool cambioEstado = existente.CN_Id_estado != tarea.CN_Id_estado;
 
-            // 4. Guardar cambios
+            // 4. Actualizar los valores
+            _context.Entry(existente).CurrentValues.SetValues(tarea);
             await _context.SaveChangesAsync();
+
+            // 5. Si hubo cambio de estado, enviar notificación
+            if (cambioEstado && existente.CN_Usuario_asignado.HasValue)
+            {
+                int ultimoId = await _context.T_Notificaciones
+                    .OrderByDescending(n => n.CN_Id_notificacion)
+                    .Select(n => n.CN_Id_notificacion)
+                    .FirstOrDefaultAsync();
+
+                int nuevoId = ultimoId + 1;
+
+                var notificacion = new ENotificacion
+                {
+                    CN_Id_notificacion = nuevoId,
+                    CN_Tipo_notificacion = 6, // 6 = Cambio de estado de tarea
+                    CT_Titulo_notificacion = "Cambio en el estado de una tarea",
+                    CT_Texto_notificacion = $"La tarea '{tarea.CT_Titulo_tarea}' cambió de estado.",
+                    CT_Correo_origen = "notificaciones@inteltask.com",
+                    CF_Fecha_registro = DateTime.Now,
+                    CF_Fecha_notificacion = DateTime.Now
+                };
+
+                await _context.T_Notificaciones.AddAsync(notificacion);
+
+                var usuario = await _context.T_Usuarios
+                    .FirstOrDefaultAsync(u => u.CN_Id_usuario == existente.CN_Usuario_asignado.Value);
+
+                var notificacionUsuario = new TINotificacionUsuario
+                {
+                    CN_Id_notificacion = nuevoId,
+                    CN_Id_usuario = existente.CN_Usuario_asignado.Value,
+                    CT_Correo_destino = usuario?.CT_Correo_usuario ?? "correo@desconocido.com"
+                };
+
+                await _context.TI_Notificaciones_X_Usuarios.AddAsync(notificacionUsuario);
+
+                await _context.SaveChangesAsync();
+            }
         }
+
 
 
         public async Task DeleteAsync(int id)
@@ -176,6 +217,15 @@ namespace IntelTaskUCR.Infrastructure.Repositories
                 query = query.Where(t => t.CF_Fecha_limite.Date == fechaLimite.Value.Date);
 
             return await query.ToListAsync();
+        }
+
+        public async Task<IEnumerable<ETarea>> GetTareasPorUsuarioAsync(int idUsuario)
+        {
+            return await _context.T_Tareas
+                .Where(t => t.CN_Usuario_creador == idUsuario || t.CN_Usuario_asignado == idUsuario)
+                .Include(t => t.UsuarioCreador)
+                .Include(t => t.UsuarioAsignado)
+                .ToListAsync();
         }
 
 
